@@ -1,6 +1,6 @@
 
 cmake_minimum_required(VERSION 3.12)
-project(lua-cmake VERSION 1.0.0 DESCRIPTION "Lua build for a project subdirectory" LANGUAGES C)
+project(liblua VERSION 1.0.0 DESCRIPTION "Lua build for a project subdirectory" LANGUAGES C)
 
 option(BUILD_SHARED_LIBS "Build as shared library" ON)
 
