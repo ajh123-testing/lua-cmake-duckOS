@@ -44,5 +44,7 @@ target_link_libraries(lua
     INTERFACE
     lua-header)
 
-add_library(lua::lib ALIAS lua)
-add_library(lua::header ALIAS lua-header)
+# add_library(lua::lib ALIAS lua)
+# add_library(lua::header ALIAS lua-header)
+
+MAKE_LIBRARY(liblua)
